@@ -1,0 +1,388 @@
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+li span {
+  line-height: 2;
+  color: #4e4e4e;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.blue-line {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+h5::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+.title-box {
+  margin-bottom: 3.2rem;
+}
+h5 {
+  font-size: 2rem;
+  position: relative;
+}
+
+@keyframes typing {
+  0.00%,
+  16.38% {
+    content: "";
+  }
+
+  0.63%,
+  15.75% {
+    content: "C";
+  }
+  1.26%,
+  15.12% {
+    content: "CE";
+  }
+  1.89%,
+  14.49% {
+    content: "CEO";
+  }
+  2.52%,
+  13.86% {
+    content: "CEO ";
+  }
+  3.15%,
+  13.23% {
+    content: "CEO D";
+  }
+  3.78%,
+  12.6% {
+    content: "CEO De";
+  }
+  4.41%,
+  11.97% {
+    content: "CEO Dev";
+  }
+  5.04%,
+  11.34% {
+    content: "CEO DevF";
+  }
+  5.67%,
+  10.71% {
+    content: "CEO DevFo";
+  }
+
+  6.30%,
+  10.08% {
+    content: "CEO DevFol";
+  }
+  6.93%,
+  9.45% {
+    content: "CEO DevFoli";
+  }
+  7.56%,
+  8.82% {
+    content: "CEO DevFolio";
+  }
+  18.90%,
+  36.54% {
+    content: "";
+  }
+  19.53%,
+  35.91% {
+    content: "W";
+  }
+  20.16%,
+  35.28% {
+    content: "We";
+  }
+
+  20.79%,
+  34.65% {
+    content: "Web";
+  }
+  21.42%,
+  34.02% {
+    content: "Web ";
+  }
+  22.05%,
+  33.39% {
+    content: "Web D";
+  }
+  22.68%,
+  32.76% {
+    content: "Web De";
+  }
+  22.31%,
+  32.13% {
+    content: "Web Dev";
+  }
+  23.94%,
+  31.50% {
+    content: "Web Deve";
+  }
+  24.57%,
+  30.87% {
+    content: "Web Devel";
+  }
+
+  25.20%,
+  30.24% {
+    content: "Web Develo";
+  }
+  25.83%,
+  29.61% {
+    content: "Web Develop";
+  }
+  26.46%,
+  28.98% {
+    content: "Web Develope";
+  }
+  27.09%,
+  28.35% {
+    content: "Web Developer";
+  }
+  39.06%,
+  49.14% {
+    content: "Web ";
+  }
+  39.69%,
+  48.51% {
+    content: "Web D";
+  }
+  40.32%,
+  47.88% {
+    content: "Web Des";
+  }
+  40.95%,
+  47.25% {
+    content: "Web Desi";
+  }
+  41.58%,
+  46.62% {
+    content: "Web Desig";
+  }
+  42.21%,
+  45.99% {
+    content: "Web Design";
+  }
+  42.84%,
+  45.36% {
+    content: "Web Designe";
+  }
+  43.47%,
+  44.73% {
+    content: "Web Designer";
+  }
+  51.66%,
+  75.6% {
+    content: "";
+  }
+  52.29%,
+  74.97% {
+    content: "F";
+  }
+  52.92%,
+  74.34% {
+    content: "Fr";
+  }
+  53.55%,
+  73.71% {
+    content: "Fro";
+  }
+  54.18%,
+  73.08% {
+    content: "Fron";
+  }
+  54.81%,
+  72.45% {
+    content: "Front";
+  }
+  55.44%,
+  71.82% {
+    content: "Fronte";
+  }
+  56.07%,
+  71.19% {
+    content: "Fronten";
+  }
+  56.70%,
+  70.56% {
+    content: "Frontend";
+  }
+  57.33%,
+  69.93% {
+    content: "Frontend ";
+  }
+  57.96%,
+  69.30% {
+    content: "Frontend D";
+  }
+  58.59%,
+  68.67% {
+    content: "Frontend De";
+  }
+  59.22%,
+  68.04% {
+    content: "Frontend Dev";
+  }
+  59.85%,
+  67.41% {
+    content: "Frontend Deve";
+  }
+  60.48%,
+  67.41% {
+    content: "Frontend Devel";
+  }
+  61.11%,
+  67.41% {
+    content: "Frontend Develo";
+  }
+  61.74%,
+  67.41% {
+    content: "Frontend Develop";
+  }
+  62.37%,
+  67.41% {
+    content: "Frontend Develope";
+  }
+  63%,
+  67.41% {
+    content: "Frontend Developer";
+  }
+  78.12%,
+  100% {
+    content: "";
+  }
+  78.12%,
+  99.37% {
+    content: "G";
+  }
+  78.74%,
+  98.74% {
+    content: "Gr";
+  }
+  79.37%,
+  98.11% {
+    content: "Gra";
+  }
+  80%,
+  97.48% {
+    content: "Grap";
+  }
+  80.63%,
+  96.85% {
+    content: "Graph";
+  }
+  81.89%,
+  95.22% {
+    content: "Graphi";
+  }
+  82.52%,
+  95.59% {
+    content: "Graphic";
+  }
+  83.14%,
+  94.96% {
+    content: "Graphic ";
+  }
+  83.76%,
+  94.37% {
+    content: "Graphic D";
+  }
+  84.38%,
+  93.72% {
+    content: "Graphic De";
+  }
+  85%,
+  93.10% {
+    content: "Graphic Des";
+  }
+  85.62%,
+  92.48% {
+    content: "Graphic Desi";
+  }
+  86.24%,
+  91.86% {
+    content: "Graphic Desig";
+  }
+  86.86%,
+  91.24% {
+    content: "Graphic Design";
+  }
+  87.48%,
+  90.62% {
+    content: "Graphic Designe";
+  }
+  88.10%,
+  90% {
+    content: "Graphic Designer";
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 26s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+.my-para {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 600;
+}

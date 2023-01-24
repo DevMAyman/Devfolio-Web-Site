@@ -1,0 +1,91 @@
+@media (max-width: 48em) {
+  .intro-title {
+    font-size: 2.25rem;
+  }
+  .include-my-card {
+    margin-bottom: 0.8rem;
+  }
+  .my-para {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+  }
+  .lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  .my-card-title {
+    font-size: 1.2rem;
+  }
+  .my-card {
+    margin-bottom: 0;
+  }
+  .my-media-contain {
+    margin-bottom: 1.6rem;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+  .test-des {
+    font-size: 1rem;
+  }
+  .my-blog-card {
+    margin-bottom: 2.4rem;
+  }
+  .contact-contain {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .right-contact-col {
+    margin-bottom: 2.4rem;
+  }
+
+  .contact-heading {
+    margin-bottom: 1.6rem;
+  }
+  .title-box {
+    margin-bottom: 1.6rem;
+  }
+  .my-row {
+    padding: 1.2rem;
+  }
+  .section-counter {
+    margin-top: 1.2rem;
+  }
+  .my-nav-bar-link::before {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 62em) {
+  .contact-heading {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
+  .last-card-left a {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .my-last-card-body {
+    display: block !important;
+  }
+}
+
+/* Some Modification to change the point at which nav bar change */
+
+@media (min-width: 48em) {
+  .navbar-expand-lg .my-navbar-toggler {
+    display: none;
+  }
+  .navbar-expand-lg .my-navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .my-navbar-nav {
+    flex-direction: row;
+  }
+}
